@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"strings"
 	"sync"
 	"time"
 
@@ -37,7 +36,7 @@ func Download(dataName string, configFilePath string, destDir string, thread int
 
 	// if dataset name exist, get download config of dataset
 	if dataName != "" {
-		configFilePath = data.DefaultFileConfigBaseUrl + strings.ToLower(dataName) + ".json"
+		configFilePath = data.DefaultFileConfigBaseUrl + dataName + ".json"
 	}
 
 	if configFilePath == "" {
