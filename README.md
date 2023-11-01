@@ -12,7 +12,7 @@
 * Linux 64bit
 
 ```text
-wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.6/mgfu_linux_amd64" && chmod +x ./mgfu
+wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.0/mgfu_linux_amd64" && chmod +x ./mgfu
 ```
 
   
@@ -20,7 +20,7 @@ wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/do
 * Mac 64bit
 
 ```text
-wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.6/mgfu_darwin" && chmod +x ./mgfu
+wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.0/mgfu_darwin" && chmod +x ./mgfu
 ```
 
   
@@ -28,21 +28,16 @@ wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/do
 * Windows 64bit
 
 ```text
-https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.6/mgfu.exe
+https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.0/mgfu.exe
 ```
 
   
 
-2. List dataset & Start download
-
-```text
-./xxxxxx ls
-```
-
+1. Start download
   
 
 ```text
-./mgfu download --dataset=<name>
+./mgfu download --data=<name>
 ```
 
   
@@ -52,7 +47,7 @@ param description:
   
 
 ```text
-    --dataset       // <optional> dataset name
+    --data          // <optional> data name
     --file_config   // <optional> files.json url
     --dest_dir      // <optional> download dest dir, default is "./"
     --thread        // <optional> thread quantity. default is 64
@@ -61,7 +56,7 @@ param description:
 ```
 
   
-The  --file_config 'files.json' is required which is a config file used to perform multi-threaded downloading. The original source file is automatically reconstructed without manual merging. Resuming from breakpoints and MD5 checksum are already included which ensures the efficiency integrity and safety.
+The  --data or --file_config is required which is a config file used to perform multi-threaded downloading. The original source file is automatically reconstructed without manual merging. Resuming from breakpoints and MD5 checksum are already included which ensures the efficiency integrity and safety.
 
   
   

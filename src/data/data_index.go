@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const DefaultIndexBaseUrl = "https://gnfd-testnet-sp1.bnbchain.org/download/meson-greenfield-data/data-index/"
+const DefaultIndexBaseUrl = "https://greenfield-sp.bnbchain.org/download/meson-greenfield-data/data-index/"
 
 type DataIndexInfo struct {
 	Name           string `json:"name"`
