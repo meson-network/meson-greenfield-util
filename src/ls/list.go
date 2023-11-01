@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/meson-network/meson-file-util/src/data"
+	"github.com/meson-network/meson-greenfield-util/src/data"
 )
 
 func ListIndex(dataType string, showDetail bool) error {

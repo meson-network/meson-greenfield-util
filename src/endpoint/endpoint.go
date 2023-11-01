@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/meson-network/meson-file-util/src/model"
-	"github.com/meson-network/meson-file-util/src/utils/file_config"
+	"github.com/meson-network/meson-greenfield-util/src/model"
+	"github.com/meson-network/meson-greenfield-util/src/utils/file_config"
 )
 
 func AddEndpoint(configPath string, endpoints []string) error {

@@ -5,11 +5,11 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/meson-network/meson-file-util/cmd/cmd_download"
-	"github.com/meson-network/meson-file-util/cmd/cmd_endpoint"
-	"github.com/meson-network/meson-file-util/cmd/cmd_ls"
-	"github.com/meson-network/meson-file-util/cmd/cmd_split"
-	"github.com/meson-network/meson-file-util/cmd/cmd_upload"
+	"github.com/meson-network/meson-greenfield-util/cmd/cmd_download"
+	"github.com/meson-network/meson-greenfield-util/cmd/cmd_endpoint"
+	"github.com/meson-network/meson-greenfield-util/cmd/cmd_ls"
+	"github.com/meson-network/meson-greenfield-util/cmd/cmd_split"
+	"github.com/meson-network/meson-greenfield-util/cmd/cmd_upload"
 )
 
 func ConfigCmd() *cli.App {

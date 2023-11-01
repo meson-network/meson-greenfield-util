@@ -13,8 +13,8 @@ import (
 	"github.com/vbauerster/mpb/v8"
 	"github.com/vbauerster/mpb/v8/decor"
 
-	"github.com/meson-network/meson-file-util/src/config"
-	"github.com/meson-network/meson-file-util/src/model"
+	"github.com/meson-network/meson-greenfield-util/src/config"
+	"github.com/meson-network/meson-greenfield-util/src/model"
 )
 
 const (

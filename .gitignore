@@ -47,5 +47,5 @@ user_conf/*/*
 
 **/*_test.go
 build/
-meson-file-util
+meson-greenfield-util
 ai-dataset.json

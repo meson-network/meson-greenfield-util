@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/meson-network/meson-file-util/cmd"
+	"github.com/meson-network/meson-greenfield-util/cmd"
 )
 
 func main() {

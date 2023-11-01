@@ -1,4 +1,4 @@
-# meson-file-util
+# meson-greenfield-util
 
 
 ## [For user] How to use
@@ -12,7 +12,7 @@
 * Linux 64bit
 
 ```text
-wget -O bsc_snapshot "https://github.com/meson-network/meson-file-util/releases/download/v1.0.6/bsc_snapshot_linux_amd64" && chmod +x ./bsc_snapshot
+wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.6/mgfu_linux_amd64" && chmod +x ./mgfu
 ```
 
   
@@ -20,7 +20,7 @@ wget -O bsc_snapshot "https://github.com/meson-network/meson-file-util/releases/
 * Mac 64bit
 
 ```text
-wget -O bsc_snapshot "https://github.com/meson-network/meson-file-util/releases/download/v1.0.6/bsc_snapshot_darwin" && chmod +x ./bsc_snapshot
+wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.6/mgfu_darwin" && chmod +x ./mgfu
 ```
 
   
@@ -28,7 +28,7 @@ wget -O bsc_snapshot "https://github.com/meson-network/meson-file-util/releases/
 * Windows 64bit
 
 ```text
-https://github.com/meson-network/meson-file-util/releases/download/v1.0.6/bsc_snapshot.exe
+https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.6/mgfu.exe
 ```
 
   
@@ -42,7 +42,7 @@ https://github.com/meson-network/meson-file-util/releases/download/v1.0.6/bsc_sn
   
 
 ```text
-./bsc_snapshot download --dataset=<name>
+./mgfu download --dataset=<name>
 ```
 
   
@@ -88,7 +88,7 @@ Splitting file tool helps to divide the source file into specified sizes and sav
 
 
 ```text
- ./bsc_snapshot split \
+ ./mgfu split \
     --file=<file path> \
     --dest=<to dir path> \
     --size=<chunk size> \
@@ -153,7 +153,7 @@ add download endpoint
   
 
 ```text
- ./bsc_snapshot endpoint add \
+ ./mgfu endpoint add \
     --config_path=<files.json path> \
     --endpoint=<endpoint url>
 ```
@@ -180,7 +180,7 @@ remove download endpoint
   
 
 ```text
- ./bsc_snapshot endpoint remove \
+ ./mgfu endpoint remove \
     --config_path=<files.json path> \
     --endpoint=<endpoint url>
 ```
@@ -207,7 +207,7 @@ set download endpoint, overwrite exist endpoints
   
 
 ```text
- ./bsc_snapshot endpoint set \
+ ./mgfu endpoint set \
     --config_path=<files.json path> \
     --endpoint=<endpoint url>
 ```
@@ -234,7 +234,7 @@ remove all endpoint
   
 
 ```text
- ./bsc_snapshot endpoint clear \
+ ./mgfu endpoint clear \
     --config_path=<files.json path> \
 ```
 
@@ -259,7 +259,7 @@ output exist endpoints
   
 
 ```text
- ./bsc_snapshot endpoint print \
+ ./mgfu endpoint print \
     --config_path=<files.json path> \
 ```
 
@@ -287,7 +287,7 @@ Before uploading files to Cloudflare R2 you need to create a bucket on R2 and ob
   
 
 ```text
- ./bsc_snapshot upload r2 \
+ ./mgfu upload r2 \
     --dir=<chunked file dir path> \
     --bucket_name=<bucket name> \
     --additional_path=<dir name> \

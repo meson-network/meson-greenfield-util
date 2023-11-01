@@ -3,7 +3,7 @@ package cmd_endpoint
 import (
 	"github.com/urfave/cli/v2"
 
-	"github.com/meson-network/meson-file-util/src/endpoint"
+	"github.com/meson-network/meson-greenfield-util/src/endpoint"
 )
 
 func AddEndpoint(clictx *cli.Context) error {

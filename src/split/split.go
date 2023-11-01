@@ -16,8 +16,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/meson-network/meson-file-util/src/model"
-	"github.com/meson-network/meson-file-util/src/utils/parse_size"
+	"github.com/meson-network/meson-greenfield-util/src/model"
+	"github.com/meson-network/meson-greenfield-util/src/utils/parse_size"
 )
 
 const DEFAULT_DEST = "./dest"

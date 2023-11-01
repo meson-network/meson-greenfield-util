@@ -5,9 +5,9 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/meson-network/meson-file-util/basic"
-	"github.com/meson-network/meson-file-util/basic/color"
-	"github.com/meson-network/meson-file-util/src/split"
+	"github.com/meson-network/meson-greenfield-util/basic"
+	"github.com/meson-network/meson-greenfield-util/basic/color"
+	"github.com/meson-network/meson-greenfield-util/src/split"
 )
 
 func Split(clictx *cli.Context) error {

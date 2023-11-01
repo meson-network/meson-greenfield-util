@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/meson-network/meson-file-util/src/config"
-	"github.com/meson-network/meson-file-util/src/data"
-	"github.com/meson-network/meson-file-util/src/model"
-	"github.com/meson-network/meson-file-util/src/utils/file_config"
+	"github.com/meson-network/meson-greenfield-util/src/config"
+	"github.com/meson-network/meson-greenfield-util/src/data"
+	"github.com/meson-network/meson-greenfield-util/src/model"
+	"github.com/meson-network/meson-greenfield-util/src/utils/file_config"
 
 	"github.com/cheggaaa/pb/v3"
 )

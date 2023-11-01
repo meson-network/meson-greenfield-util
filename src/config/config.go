@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/meson-network/meson-file-util/src/model"
+	"github.com/meson-network/meson-greenfield-util/src/model"
 )
 
 func LoadFile4Upload(configFilePath string) (*model.FileConfig, error) {

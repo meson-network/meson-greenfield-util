@@ -16,8 +16,8 @@ import (
 
 	"github.com/cheggaaa/pb/v3"
 
-	"github.com/meson-network/meson-file-util/src/model"
-	"github.com/meson-network/meson-file-util/src/utils/custom_reader"
+	"github.com/meson-network/meson-greenfield-util/src/model"
+	"github.com/meson-network/meson-greenfield-util/src/utils/custom_reader"
 )
 
 type ChunkFetcher struct {

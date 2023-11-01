@@ -1,4 +1,4 @@
-module github.com/meson-network/meson-file-util
+module github.com/meson-network/meson-greenfield-util
 
 go 1.20
 
