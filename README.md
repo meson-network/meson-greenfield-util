@@ -12,7 +12,7 @@
 * Linux 64bit
 
 ```text
-wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.0/mgfu_linux_amd64" && chmod +x ./mgfu
+wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.1/mgfu_linux_amd64" && chmod +x ./mgfu
 ```
 
   
@@ -20,7 +20,7 @@ wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/do
 * Mac 64bit
 
 ```text
-wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.0/mgfu_darwin" && chmod +x ./mgfu
+wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.1/mgfu_darwin" && chmod +x ./mgfu
 ```
 
   
@@ -28,7 +28,7 @@ wget -O mgfu "https://github.com/meson-network/meson-greenfield-util/releases/do
 * Windows 64bit
 
 ```text
-https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.0/mgfu.exe
+https://github.com/meson-network/meson-greenfield-util/releases/download/v1.0.1/mgfu.exe
 ```
 
   
